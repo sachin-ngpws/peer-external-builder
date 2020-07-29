@@ -2,8 +2,6 @@ ARG PEER_VER=2.1.1
 
 FROM hyperledger/fabric-peer:${PEER_VER}
 
-WORKDIR /etc/hyperledger/fabric
-
-COPY . .
+COPY . /etc/hyperledger/fabric
 
 RUN apk add jq

@@ -539,8 +539,8 @@ chaincode:
     # chaincode. The external builder detection processing will iterate over the
     # builders in the order specified below.
     externalBuilders: 
-        - path: /etc/hyperledger/fabric/builder
-          name: external
+        - name: external
+          path: /etc/hyperledger/fabric/builder
         # - path: /path/to/directory
         #   name: descriptive-builder-name
         #   environmentWhitelist:
