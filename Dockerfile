@@ -1,4 +1,4 @@
-ARG PEER_VER=2.1.1
+ARG PEER_VER=2.2.4
 
 FROM hyperledger/fabric-peer:${PEER_VER}
 
